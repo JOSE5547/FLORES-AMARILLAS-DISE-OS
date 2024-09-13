@@ -1,0 +1,349 @@
+.imagen{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    animation: animacion 25s linear;
+    animation-fill-mode: forwards; 
+}
+@keyframes animacion{
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        left: 305px;
+        top: 130px;
+    }
+    50%{
+        left: 350px;
+        top: 30px;
+    }
+    75%{
+        left: 420px;
+        top: 110px;
+    }
+    100%{
+        left: 420px;
+        top: 110px;
+    }
+}
+.texto{
+    position: absolute;
+    color: antiquewhite;
+    font-size: 12px;
+    z-index: 1;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    top: 350px;
+    border: 0.5px solid yellow;
+    border-radius: 10px;
+}
+.imagen2{
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    z-index: 1;
+    animation: flor 10s linear;
+    animation-fill-mode: forwards; 
+}
+@keyframes flor{
+    0%{
+        top: 400px;
+    }
+    25%{
+        top: 220px;
+    }
+    50%{
+        top: 220px;
+    }
+    100%{
+        top: 220px;
+    }
+}
+#imagen3{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 400px;
+    left: 190px;
+    z-index: 1;
+    animation: herth 20s ease-in-out ;
+    animation-fill-mode: forwards; 
+}
+#imagen3::after{
+    content: 'T';
+    text-align: center;
+    position: relative;
+    top: -5px;
+    left: 5px;
+    font-size: 80px;
+    font-family: 'KR Lots Of Hearts';
+    color: yellow;
+}
+@keyframes herth{
+    0%{
+        top: 0px;
+        left: 0px;
+        transform: rotate(360deg);
+        opacity: 0%;
+    }
+    20%{
+        top: 30px;
+        left: 20px;
+        transform: rotate(540deg);
+        opacity: 20%;
+    }
+    40%{
+        top: 70px;
+        left: 80px;
+        transform: rotate(540deg);
+        opacity: 40%;
+    }
+    60%{
+        top: 80px;
+        left: 110px;
+        transform: rotate(540deg);
+        opacity: 60%;
+    }
+    80%{
+        top: 30px;
+        left: 190px;
+        opacity: 80%;
+    }
+    100%{
+        top: 25px;
+        left: 190px;
+        opacity: 100%;
+    }
+}
+#imagen4{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 400px;
+    left: 250px;
+    z-index: 1;
+    animation: herth1 20s ease-in-out;
+    animation-fill-mode: forwards;  
+}
+#imagen4::after{
+    content: 'E';
+    text-align: center;
+    position: relative;
+    top: -5px;
+    left: 5px;
+    font-size: 80px;
+    font-family: 'KR Lots Of Hearts';
+    color: yellow;
+}
+@keyframes herth1{
+    0%{
+        top: 400px;
+        left: -30px;
+        transform: rotate(360deg);
+        opacity: 0%;
+    }
+    20%{
+        top: 350px;
+        left: 0px;
+        transform: rotate(540deg);
+        opacity: 20%;
+    }
+    40%{
+        top: 250px;
+        left: 120px;
+        transform: rotate(540deg);
+        opacity: 40%;
+    }
+    60%{
+        top: 90px;
+        left: 180px;
+        transform: rotate(540deg);
+        opacity: 60%;
+    }
+    80%{
+        top: 25px;
+        left: 250px;
+        opacity: 80%;
+    }
+    100%{
+        top: 25px;
+        left: 250px;
+        opacity: 100%;
+    }
+}
+#imagen5{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 400px;
+    left: 360px;
+    z-index: 1;
+    animation: herth2 20s ease-in-out;
+    animation-fill-mode: forwards;  
+}
+#imagen5::after{
+    content: 'A';
+    text-align: center;
+    position: relative;
+    top: -5px;
+    left: 5px;
+    font-size: 80px;
+    font-family: 'KR Lots Of Hearts';
+    color: yellow;
+}
+@keyframes herth2{
+    0%{
+        top: 400px;
+        left: 400px;
+        transform: rotate(360deg);
+        opacity: 0%;
+    }
+    20%{
+        top: 350px;
+        left: 420px;
+        transform: rotate(540deg);
+        opacity: 20%;
+    }
+    40%{
+        top: 180px;
+        left: 410px;
+        transform: rotate(540deg);
+        opacity: 40%;
+    }
+    60%{
+        top: 80px;
+        left: 390px;
+        transform: rotate(540deg);
+        opacity: 60%;
+    }
+    80%{
+        top: 30px;
+        left: 360px;
+        opacity: 80%;
+    }
+    100%{
+        top: 25px;
+        left: 360px;
+        opacity: 100%;
+    }
+}
+#imagen6{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 400px;
+    left: 420px;
+    z-index: 1;
+    animation: herth3 20s ease-in-out;
+    animation-fill-mode: forwards;  
+}
+#imagen6::after{
+    content: 'M';
+    text-align: center;
+    position: relative;
+    top: -5px;
+    left: 5px;
+    font-size: 80px;
+    font-family: 'KR Lots Of Hearts';
+    color: yellow;
+}
+@keyframes herth3{
+    0%{
+        top: 400px;
+        left: 800px;
+        transform: rotate(360deg);
+        opacity: 0%;
+    }
+    20%{
+        top: 350px;
+        left: 750px;
+        transform: rotate(540deg);
+        opacity: 20%;
+    }
+    40%{
+        top: 180px;
+        left: 600px;
+        transform: rotate(540deg);
+        opacity: 40%;
+    }
+    60%{
+        top: 80px;
+        left: 550px;
+        transform: rotate(540deg);
+        opacity: 60%;
+    }
+    80%{
+        top: 30px;
+        left: 420px;
+        opacity: 80%;
+    }
+    100%{
+        top: 25px;
+        left: 420px;
+        opacity: 100%;
+    }
+}
+#imagen7{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 400px;
+    left: 480px;
+    z-index: 1;
+    animation: herth4 20s ease-in-out;
+    animation-fill-mode: forwards;  
+}
+#imagen7::after{
+    content: 'O';
+    text-align: center;
+    position: relative;
+    top: -5px;
+    left: 5px;
+    font-size: 80px;
+    font-family: 'KR Lots Of Hearts';
+    color: yellow;
+}
+@keyframes herth4{
+    0%{
+        top: 0px;
+        left: 800px;
+        transform: rotate(360deg);
+        opacity: 0%;
+    }
+    20%{
+        top: 10px;
+        left: 720px;
+        transform: rotate(540deg);
+        opacity: 20%;
+    }
+    40%{
+        top: 30px;
+        left: 610px;
+        transform: rotate(540deg);
+        opacity: 40%;
+    }
+    60%{
+        top: 50px;
+        left: 590px;
+        transform: rotate(540deg);
+        opacity: 60%;
+    }
+    80%{
+        top: 30px;
+        left: 480px;
+        opacity: 80%;
+    }
+    100%{
+        top: 25px;
+        left: 480px;
+        opacity: 100%;
+    }
+}
+
